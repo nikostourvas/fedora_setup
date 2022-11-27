@@ -15,3 +15,6 @@ for signal desktop to launch in the tray
 ```
 /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=signal-desktop --file-forwarding org.signal.Signal --start-in-tray @@u %U @@
 ```
+
+check rpmfusion documentation for tips to install Virtualbox and other software
+https://rpmfusion.org/Howto
