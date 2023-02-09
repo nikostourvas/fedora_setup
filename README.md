@@ -20,7 +20,7 @@ check rpmfusion documentation for tips to install Virtualbox and other software
 https://rpmfusion.org/Howto
 
 For gnome-boxes (to enable high resolutions)
-find this line, and increase video memory
+find this line in cofiguration, and increase video memory
 ```
 <video>
       <model type='qxl' ram='65536' vram='65536' vgamem='16384' heads='1' primary='yes'/>
