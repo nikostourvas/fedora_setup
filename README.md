@@ -18,3 +18,19 @@ for signal desktop to launch in the tray
 
 check rpmfusion documentation for tips to install Virtualbox and other software
 https://rpmfusion.org/Howto
+
+For gnome-boxes (to enable high resolutions)
+find this line, and increase video memory
+```
+<video>
+      <model type='qxl' ram='65536' vram='65536' vgamem='16384' heads='1' primary='yes'/>
+```
+
+change it as shown
+```
+<video>
+      <model type='qxl' ram='65536' vram='65536' vgamem='65536' heads='1' primary='yes'/>
+```
+
+Also inside guest windows machines install spice guest additions
+https://www.spice-space.org/download.html
