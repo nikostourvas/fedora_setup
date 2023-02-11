@@ -34,3 +34,27 @@ change it as shown
 
 Also inside guest windows machines install spice guest additions
 https://www.spice-space.org/download.html
+
+Using tlp
+If you’re going to use TLP, please stop, disable and then mask GNOME power profiles to avoid any issues with conflicts.
+
+sudo systemctl stop power-profiles-daemon.service
+
+sudo systemctl disable power-profiles-daemon.service
+
+sudo systemctl mask power-profiles-daemon.service
+
+
+This will stop the service until you decide to unmask it again. Please remove TLP first, then re-enable/unmask power profiles.
+
+sudo systemctl enable power-profiles-daemon.service
+
+sudo systemctl start power-profiles-daemon.service
+
+sudo systemctl unmask power-profiles-daemon.service
+
+check tlp setting with 
+```sudo tlp-stat -p```
+
+and edit settings with
+```sudo vim /etc/tlp.conf```
