@@ -1,0 +1,97 @@
+Dconf Editor	ca.desrt.dconf-editor	43.0	stable	fedora	system
+AnyDesk	com.anydesk.Anydesk	6.2.1	stable	flathub	system
+Dropbox	com.dropbox.Client	170.4.5895	stable	flathub	system
+gitIgnore	com.github.arshubham.gitignore	2.0.0	stable	flathub	system
+TLPUI	com.github.d4nj1.tlpui	1.5.0-7	stable	flathub	system
+Curtail	com.github.huluti.Curtail	1.5.0	stable	flathub	system
+PDF Arranger	com.github.jeromerobert.pdfarranger	1.9.2	stable	flathub	system
+Drawing	com.github.maoschanz.drawing	1.0.2	stable	flathub	system
+Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	flathub	system
+Google Chrome	com.google.Chrome	111.0.5563.110-1	stable	flathub	system
+Extension Manager	com.mattjakeman.ExtensionManager	0.4.0	stable	flathub	system
+OBS Studio	com.obsproject.Studio	29.0.2	stable	flathub	system
+Blanket	com.rafaelmardojai.Blanket	0.6.0	stable	flathub	system
+Seafile Client	com.seafile.Client	8.0.9	stable	flathub	system
+Skype	com.skype.Client	8.96.0.207	stable	flathub	system
+Slack	com.slack.Slack	4.29.149	stable	flathub	system
+Spotify	com.spotify.Client	1.1.84.716.gc5f8b819	stable	flathub	system
+Synology Drive	com.synology.SynologyDrive	3.2.1	stable	flathub	system
+Birdtray	com.ulduzsoft.Birdtray	1.9.0	stable	flathub	system
+Peek	com.uploadedlobster.peek	1.5.1	stable	flathub	system
+Viber	com.viber.Viber	18.2.0.2	stable	flathub	system
+Visual Studio Code	com.visualstudio.code	1.76.2-1678817801	stable	flathub	system
+HandBrake	fr.handbrake.ghb	1.6.1	stable	flathub	system
+Colorway	io.github.lainsce.Colorway	1.2.0	stable	flathub	system
+Khronos	io.github.lainsce.Khronos	3.7.0	stable	flathub	system
+PeaZip	io.github.peazip.PeaZip	9.1.0	stable	flathub	system
+peazip i386 addon	io.github.peazip.PeaZip.Addon.i386	1.0.0	stable	flathub	system
+mpv	io.mpv.Mpv	0.35.1	stable	flathub	system
+Obsidian	md.obsidian.Obsidian	1.1.16	stable	flathub	system
+Syncthing GTK	me.kozec.syncthingtk	v0.9.4.4.2	stable	flathub	system
+Master PDF Editor	net.codeindustry.MasterPDFEditor	5.9.40	stable	flathub	system
+Color Picker	nl.hjdskes.gcolor3	2.4.0	stable	flathub	system
+Quearcode	org.esrum.quearcode		stable	fedora	system
+Fedora Platform	org.fedoraproject.Platform	37	f37	fedora	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.18	21.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	22.08.9	22.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.1.8	20.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	22.3.5	22.08	flathub	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	22.3.5	22.08-extra	flathub	system
+Intel	org.freedesktop.Platform.VAAPI.Intel		20.08	flathub	system
+Intel	org.freedesktop.Platform.VAAPI.Intel		21.08	flathub	system
+Intel	org.freedesktop.Platform.VAAPI.Intel		22.08	flathub	system
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	20.08.21	20.08	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	21.08.18	21.08	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	22.08.9	22.08	flathub	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.34	stable	flathub	system
+Manual	org.gimp.GIMP.Manual		2.10	flathub	system
+Boxes	org.gnome.Boxes	44.0	stable	flathub	system
+GNOME Boxes Osinfo DB	org.gnome.Boxes.Extension.OsinfoDb	20230308	stable	flathub	system
+Extensions	org.gnome.Extensions	43.beta	stable	fedora	system
+GNOME Application Platform version 40	org.gnome.Platform		40	flathub	system
+GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
+GNOME Application Platform version 43	org.gnome.Platform		43	flathub	system
+GNOME Application Platform version 44	org.gnome.Platform		44	flathub	system
+GNOME Power Statistics	org.gnome.PowerStats	43.0	stable	flathub	system
+Solanum	org.gnome.Solanum	3.0.1	stable	flathub	system
+Sound Recorder	org.gnome.SoundRecorder	43.beta	stable	fedora	system
+Text Editor	org.gnome.TextEditor	43.1	stable	fedora	system
+Videos	org.gnome.Totem	43.0	stable	flathub	system
+Codecs	org.gnome.Totem.Codecs		stable	flathub	system
+yt-dl totem-pl-parser plugin	org.gnome.Totem.Videosite.YouTubeDl		stable	flathub	system
+Weather	org.gnome.Weather	44.0	stable	flathub	system
+Contrast	org.gnome.design.Contrast	0.0.7	stable	flathub	system
+Video Trimmer	org.gnome.gitlab.YaLTeR.VideoTrimmer	0.8.0	stable	flathub	system
+Apostrophe	org.gnome.gitlab.somas.Apostrophe	2.6.3	stable	flathub	system
+Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	flathub	system
+Inkscape	org.inkscape.Inkscape	1.2.2	stable	flathub	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-21.08	flathub	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	flathub	system
+Adwaita theme	org.kde.KStyle.Adwaita		6.3	flathub	system
+Adwaita theme	org.kde.KStyle.Adwaita		6.4	flathub	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
+KDE Application Platform	org.kde.Platform		5.15-22.08	flathub	system
+KDE Application Platform	org.kde.Platform		6.3	flathub	system
+KDE Application Platform	org.kde.Platform		6.4	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-21.08	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-22.08	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		6.3	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		6.4	flathub	system
+QtSNI	org.kde.PlatformTheme.QtSNI		5.15-21.08	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-21.08	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-22.08	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		6.3	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		6.4	flathub	system
+Thunderbird	org.mozilla.Thunderbird	102.9.0	stable	flathub	system
+Denaro	org.nickvision.money	2023.2.2	stable	flathub	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.3.0	stable	flathub	system
+qBittorrent	org.qbittorrent.qBittorrent	4.5.2	stable	flathub	system
+Signal Desktop	org.signal.Signal	6.11.0	stable	flathub	system
+VLC	org.videolan.VLC	3.0.18	stable	flathub	system
+Zotero	org.zotero.Zotero	6.0.23	stable	flathub	system
+Plex	tv.plex.PlexDesktop	1.66.1	stable	flathub	system
+Zoom	us.zoom.Zoom	5.13.11.1288	stable	flathub	system
