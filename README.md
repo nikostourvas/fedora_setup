@@ -8,6 +8,9 @@ sudo dnf install -y ffmpeg
 sudo dnf group upgrade --with-optional Multimedia
 ```
 
+if running Fedora Silverblue check this page:
+https://rpmfusion.org/Howto/OSTree
+
 for signal desktop to launch in the tray
 1.create autostart entry from tweak tool
 2.edit autostart entry by navigating to .config/autostart/org.signal.Signal
