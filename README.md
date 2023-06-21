@@ -65,3 +65,7 @@ and edit settings with
 ## docker post-install on silverblue
 copy the line about docker from /usr/lib/group to /etc/groups
 add username to the end of this line in /etc/groups
+
+# vim mode in terminal
+add to .bashrc
+```set -o vi```
