@@ -66,6 +66,22 @@ and edit settings with
 copy the line about docker from /usr/lib/group to /etc/groups
 add username to the end of this line in /etc/groups
 
-# vim mode in terminal
+## vim mode in terminal
 add to .bashrc
 ```set -o vi```
+
+## modern csv editor install
+create a distrobox container with
+distrobox create -i ubuntu:22.04 -n test
+
+you need to install GUI dependencies
+unfortunately modern csv installer does not do that!
+a quick and dirty way to achieve this is to install some other KDE application, for example:
+```sudo apt install okular```
+
+go to modern csv directory and install it
+``` sudo sh install.sh```
+
+export app to host system
+```distrobox-export --app moderncsv```
+
