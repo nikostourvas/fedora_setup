@@ -72,7 +72,7 @@ add to .bashrc
 
 ## modern csv editor install
 create a distrobox container with
-distrobox create -i ubuntu:22.04 -n test
+```distrobox create -i ubuntu:22.04 -n test```
 
 you need to install GUI dependencies
 unfortunately modern csv installer does not do that!
