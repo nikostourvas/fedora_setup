@@ -82,6 +82,18 @@ a quick and dirty way to achieve this is to install some other KDE application, 
 go to modern csv directory and install it
 ``` sudo sh install.sh```
 
+## amd p-state driver in amd zen 3 laptops
+firsly disable acpi_cpufreq driver
+```
+sudo grubby --args=initcall_blacklist=acpi_cpufreq_init --update-kernel=ALL
+```
+
+secondly, enable p-state (passive or active, more options to come in next version of linux kernel)
+```
+sudo grubby --update-kernel=ALL --args="amd_pstate=passive"
+```
+To revert changes use the option --remove-args instead of --args
+
 export app to host system
 ```distrobox-export --app moderncsv```
 
