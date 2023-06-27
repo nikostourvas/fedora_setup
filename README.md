@@ -82,6 +82,9 @@ a quick and dirty way to achieve this is to install some other KDE application, 
 go to modern csv directory and install it
 ``` sudo sh install.sh```
 
+export app to host system
+```distrobox-export --app moderncsv```
+
 ## amd p-state driver in amd zen 3 laptops
 firsly disable acpi_cpufreq driver
 ```
@@ -94,6 +97,15 @@ sudo grubby --update-kernel=ALL --args="amd_pstate=passive"
 ```
 To revert changes use the option --remove-args instead of --args
 
-export app to host system
-```distrobox-export --app moderncsv```
+## hp scanners
+"Simple-Scan" cannot detect scanners on silverblue. Install simple-scan inside a distrobox 
+```
+sudo apt update
+sudo apt install simple-scan hplip
+```
+then expose the application to the host system. From the distrobox terminal type:
+```
+distrobox-export -app simple-scan
+```
+
 
