@@ -108,4 +108,6 @@ then expose the application to the host system. From the distrobox terminal type
 distrobox-export -app simple-scan
 ```
 
-
+## CapsLock as Esc in VS CODE
+Click the gear icon --> settings --> search for "keyboard.dispatch"
+Set it to the KeyCode option
