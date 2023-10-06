@@ -97,6 +97,17 @@ sudo grubby --update-kernel=ALL --args="amd_pstate=passive"
 ```
 To revert changes use the option --remove-args instead of --args
 
+## amd p-state_epp driver in kernel 6.5
+Check available epp states
+```
+cat /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_available_preferences
+```
+
+set epp state
+```
+echo "balance_performance" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference
+```
+
 ## hp scanners
 "Simple-Scan" cannot detect scanners on silverblue. Install simple-scan inside a distrobox 
 ```
