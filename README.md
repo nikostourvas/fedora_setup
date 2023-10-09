@@ -113,6 +113,11 @@ echo "balance_performance" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/energ
 sudo grubby --args=initcall_blacklist=amd_pstate_init --update-kernel=ALL
 ```
 
+Revert it with:
+```
+sudo grubby --remove-args=initcall_blacklist=amd_pstate_init --update-kernel=ALL
+```
+
 ## hp scanners
 "Simple-Scan" cannot detect scanners on silverblue. Install simple-scan inside a distrobox 
 ```
