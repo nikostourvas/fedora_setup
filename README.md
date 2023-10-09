@@ -108,6 +108,11 @@ set epp state
 echo "balance_performance" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference
 ```
 
+## Disable amd-pstate-epp
+```
+sudo grubby --args=initcall_blacklist=amd_pstate_init --update-kernel=ALL
+```
+
 ## hp scanners
 "Simple-Scan" cannot detect scanners on silverblue. Install simple-scan inside a distrobox 
 ```
