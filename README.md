@@ -129,6 +129,17 @@ then expose the application to the host system. From the distrobox terminal type
 distrobox-export -app simple-scan
 ```
 
+# BOKU - VPN
+after you disconnect from cisco vpn you need to run the following command to reset DNS service
+```
+systemctl restart systemd-resolved.service
+```
+
+you may also need to run
+```
+systemctl restart NetworkManager
+```
+
 ## CapsLock as Esc in VS CODE
 Click the gear icon --> settings --> search for "keyboard.dispatch"
 Set it to the KeyCode option
