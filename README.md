@@ -143,3 +143,8 @@ systemctl restart NetworkManager
 ## CapsLock as Esc in VS CODE
 Click the gear icon --> settings --> search for "keyboard.dispatch"
 Set it to the KeyCode option
+
+# Timelapses with gphoto2
+```
+gphoto2 --capture-image-and-download --interval=15 --frames=3 --filename=%Y%m%d_%H%M%S.arw
+```
