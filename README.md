@@ -148,3 +148,10 @@ Set it to the KeyCode option
 ```
 gphoto2 --capture-image-and-download --interval=15 --frames=3 --filename=%Y%m%d_%H%M%S.arw
 ```
+
+# Fingerprint login
+https://github.com/ublue-os/bluefin/issues/919
+```
+sudo authselect enable-feature with-fingerprint
+sudo authselect apply-changes
+```
