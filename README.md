@@ -155,3 +155,6 @@ https://github.com/ublue-os/bluefin/issues/919
 sudo authselect enable-feature with-fingerprint
 sudo authselect apply-changes
 ```
+
+# Zoom screensharing
+Open Zoom settings (cog icon), go to Share Screen > Advanced, change Screen capture mode on Wayland to Pipewire Mode. Screen sharing should work as intended. 
