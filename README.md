@@ -161,8 +161,16 @@ sudo authselect apply-changes
 lspci -v
 ```
 
+# Disable Adaptive Backlight Management
+```
+rpm-ostree kargs --editor
+```
+and at the end of the line add:
 
 ```
+amdgpu.abmlevel=0
+```
+https://universal-blue.discourse.group/t/adaptive-backlight-management-help-or-why-i-sometimes-hate-the-linux-desktop/8860/3
 
 # Zoom screensharing
 Open Zoom settings (cog icon), go to Share Screen > Advanced, change Screen capture mode on Wayland to Pipewire Mode. Screen sharing should work as intended. 
