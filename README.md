@@ -161,6 +161,9 @@ sudo authselect apply-changes
 lspci -v
 ```
 
+# Darktable Color Management
+In Darktable preferences "Miscellaneous" => "Method for getting the display profile" I changed from "all" to "xatom" (now my colors in Darktable are not "washed out" anymore, and match the exported JPEG that I can view with Gnome Image Viewer, Geeqie, or any web browser) 
+
 # Disable Adaptive Backlight Management
 ```
 rpm-ostree kargs --editor
