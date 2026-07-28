@@ -164,6 +164,13 @@ lspci -v
 # Darktable Color Management
 In Darktable preferences "Miscellaneous" => "Method for getting the display profile" I changed from "all" to "xatom" (now my colors in Darktable are not "washed out" anymore, and match the exported JPEG that I can view with Gnome Image Viewer, Geeqie, or any web browser) 
 
+# SDR color management
+https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/4900
+use the following for the external monitor
+```
+gdctl set --logical-monitor --monitor DP-1 --primary --color-mode sdr-native
+```
+
 # Disable Adaptive Backlight Management
 ```
 rpm-ostree kargs --editor
